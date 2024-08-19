@@ -15,7 +15,7 @@
     />
   </head>
   <body
-    class="bg-[url(assets/images/bg-weather.png)] bg-cover bg-no-repeat text-white max-w-screen-xl mx-auto py-4 px-6 h-dvh"
+    class="h-[100vh] bg-[url(assets/images/bg-weather.png)] bg-fixed bg-cover bg-no-repeat text-white max-w-screen-xl mx-auto py-4 px-6"
   >
     <header>
       <nav class="flex justify-between  flex-col sm:flex-row gap-3">
@@ -41,5 +41,26 @@
         </div>
       </nav>
     </header>
+    <main class="flex justify-center items-center lg:justify-end  ">
+      <!-- hero section start -->
+      <section class="  bg-glass">
+           <div class="  relative">
+            <i class="fa-solid fa-cloud-sun-rain absolute -top-7 left-0 sm:text-2xl"></i>
+            <h1 class="text-4xl sm:text-8xl font-bold">25°</h1>
+            <h3 class="text-2xl font-semibold my-2 md:my-3">Dhaka</h3>
+            <time class="text-base sm:text-lg font-medium block">9:41AM - Tuesday, January 23,2024</time>
+           </div>
+           <div class=" ">
+            <h2 class="text-2xl font-bold uppercase text-center md:text-left">The Climate Is Mist</h2>
+           <div class="mt-6 space-y-3">
+            <h4 class="flex justify-between text-lg font-normal gap-2"><span>Temp max</span><span>25.93° <i class="text-red-400 fa-solid fa-temperature-low"></i></span></h4>
+            <h4 class="flex justify-between text-lg font-normal gap-2"><span>Temp min</span><span>22.07° <i class="text-blue-400 fa-solid fa-temperature-low"></i></span></h4>
+            <h4 class="flex justify-between text-lg font-normal gap-2"><span>Humadity</span><span>51% <i class=" fa-sharp fa-solid fa-droplet"></i></span></h4>
+            <h4 class="flex justify-between text-lg font-normal ap-2"><span>Cloudy</span><span>2% <i class="fa-solid fa-cloud"></i></span></h4>
+            <h4 class="flex justify-between text-lg font-normal gap-2"><span>Wind</span><span>3.6km/h <i class="fa-solid fa-wind"></i></span></h4> 
+           </div>
+           </div>
+      </section>
+    </main>
   </body>
 </html>
