@@ -2,7 +2,11 @@
 export default {
   content: ["*"],
   theme: {
-    extend: {},
+    extend: {
+      screens:{
+        "sm":"576px"
+      }
+    },
   },
   plugins: [],
 }
